@@ -8,4 +8,4 @@
 each other then the program will return true.
 
 
-Demo site: https://peaceful-wave-61087.herokuapp.com/
+Demo site: https://peaceful-wave-61087.herokuapp.com/compute
