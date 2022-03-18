@@ -14,7 +14,7 @@ import static spark.Spark.get;
   import java.util.Map;
 
   import org.apache.logging.log4j.*;
-  
+
 import com.google.common.collect.ArrayListMultimap;
 
 import spark.ModelAndView;
@@ -119,7 +119,7 @@ public class App {
         get("/compute",
             (rq, rs) -> {
               Map<String, String> map = new HashMap<String, String>();
-              map.put("result", "not computed yet!");
+              map.put("result", "please enter the matrix like same integers on the same line are seperated with space character and finished with newline");
               return new ModelAndView(map, "compute.mustache");
             },
             new MustacheTemplateEngine());
