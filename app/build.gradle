@@ -49,3 +49,6 @@ application {
     // Define the main class for the application.
     mainClass = 'Web.App.App'
 }
+
+task stage(dependsOn: ['shadowJar'])
+shadowJar.mustRunAfter clean
